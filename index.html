@@ -203,7 +203,25 @@ footer{
         margin:8px 10px;
         font-size:16px;
     }
+} 
+    /* MOBILE BUTTON FIX */
+@media(max-width:900px){
+    .buttons{
+        display:flex;
+        flex-direction:column; /* vertical stack */
+        align-items:center;
+        gap:15px; /* space between buttons */
+        margin-top:25px;
+    }
+
+    .btn{
+        width:70%; /* buttons stretch a bit, optional */
+        text-align:center;
+        padding:12px 0;
+        font-size:18px;
+    }
 }
+
 
 }
 </style>
@@ -314,3 +332,4 @@ at <b>UOT</b> through <b>Cyber Pathshala</b>.
 
 </body>
 </html>
+
